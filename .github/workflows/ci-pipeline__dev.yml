@@ -8,13 +8,13 @@ on:
 
 env:
   GIT__BRANCH                     : 'dev'
-  PACKAGE_NAME                    : 'cbr_custom_ccl'
+  PACKAGE_NAME                    : 'cbr__defensible_governance'
   AWS_ACCESS_KEY_ID               : ${{ secrets.AWS_ACCESS_KEY_ID__470426667096     }}
   AWS_SECRET_ACCESS_KEY           : ${{ secrets.AWS_SECRET_ACCESS_KEY__470426667096 }}
   CBR__CUSTOM__ACCOUNT_ID         : '654654216424'
   CBR__CONFIG_FILE                : 'cbr-website.community-cbr-hosted.toml'
   AWS_REGION                      : 'eu-west-1'
-  CBR__CUSTOM__PATH_CUSTOM_CODE   : "./cbr_custom_ccl/custom"
+  CBR__CUSTOM__PATH_CUSTOM_CODE   : "./cbr__defensible_governance/custom"
   CBR__CUSTOM__PACKAGES_TO_INSTALL: '["cbr_website_beta", "cbr_content", "cbr_static"]'
   S3_DEV__BUCKET                  : "654654216424--cbr-deploy--eu-west-1"
   S3_DEV__PARENT_FOLDER           : "cbr-custom-websites"
@@ -37,8 +37,8 @@ jobs:
     name: "Deploy CBR - CBR Custom - CCL"
     runs-on: ubuntu-latest
     env:
-      S3_DEV__VERSION   : 'dev__cbr_custom_ccl'
-      FOLDER__CBR_CUSTOM: "./cbr_custom_ccl"
+      S3_DEV__VERSION   : 'dev__cbr__defensible_governance'
+      FOLDER__CBR_CUSTOM: "./cbr__defensible_governance"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

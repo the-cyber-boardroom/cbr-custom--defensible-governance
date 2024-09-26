@@ -1,0 +1,31 @@
+services:
+  cbr-custom:
+    build:
+      context: ../../..
+      dockerfile: ./deploy/docker/cbr__defensible_governance/Dockerfile
+
+    platform: linux/amd64
+    container_name: cbr__defensible_governance
+    tty: true
+    environment:
+      - PORT=3000
+
+    ports:
+      - "5116:3000"
+    volumes:
+      - ../../../cbr__defensible_governance/custom:/app/custom
+      - ./cbr__defensible_governance__run_locally.sh:/app/cbr__defensible_governance__run_locally.sh
+      - ../../../cbr__defensible_governance/custom/cbr_content/en/web-pages/ccl:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-pages/ccl-local
+      - ../../../cbr__defensible_governance/custom/cbr_static/assets/ccl:/usr/local/lib/python3.12/site-packages/cbr_static/assets/ccl
+
+    pull_policy: always
+
+    entrypoint: ["./cbr__defensible_governance__run_locally.sh"]
+
+
+# docker pull --platform linux/amd64 diniscruz/cbr_website_beta:latest
+# docker compose up --build
+# docker exec -it {contained id} bash
+# run
+#    export python_packages=/usr/local/lib/python3.12/site-packages
+#    cp -R ./custom/* $python_packages

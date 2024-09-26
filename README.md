@@ -1,8 +1,13 @@
 # cbr-custom
-Repo for CBR Custom websites 
+Repo for CBR version of Defensible Governance 
 
 
 ## Repo details
 
 ![Current Release](https://img.shields.io/badge/release-v0.2.9-blue)
 
+## local Clone
+
+Use :
+
+git@github.com:the-cyber-boardroom/cbr-custom--defensible-governance.git

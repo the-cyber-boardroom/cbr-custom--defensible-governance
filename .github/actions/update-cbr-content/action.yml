@@ -9,21 +9,14 @@ runs:
       shell: bash
       run: |                                
         export python_packages=$(python -c "import site; print(site.getsitepackages()[0])")
-        echo "set python_packages to  $python_packages"
-        python_path__cbr_content=$python_packages/cbr_content
-        echo "set python_path__cbr_content to: $python_path__cbr_content"
+        echo "set python_packages to  $python_packages"        
         
-        tmp_folder=/tmp        
-                        
-        # cd $tmp_folder
-        # git clone --branch dev https://github.com/the-cyber-boardroom/cbr-content.git /tmp/cbr-content
-        #
-        # cp -R $tmp_folder/cbr-content/cbr_content/* $python_path__cbr_content
+        tmp_folder=/tmp                                      
 
         cd $tmp_folder
-        git clone --branch dev https://github.com/the-cyber-boardroom/cbr-custom--ccl.git /tmp/cbr-custom--ccl
+        git clone --branch dev https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance.git /tmp/cbr-custom--defensible-governance
                 
-        cp -Rv $tmp_folder/cbr-custom--ccl/cbr_custom_ccl/custom/* $python_packages
+        cp -Rv $tmp_folder/cbr-custom--defensible-governance/cbr_defensible_governance/custom/* $python_packages
 
 
         
