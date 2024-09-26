@@ -4,7 +4,7 @@ Repo for CBR version of Defensible Governance
 
 ## Repo details
 
-![Current Release](https://img.shields.io/badge/release-v0.1.2-blue)
+![Current Release](https://img.shields.io/badge/release-v0.1.3-blue)
 
 ## local Clone
 
