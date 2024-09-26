@@ -16,7 +16,7 @@ runs:
         cd $tmp_folder
         git clone --branch dev https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance.git /tmp/cbr-custom--defensible-governance
                 
-        cp -Rv $tmp_folder/cbr-custom--defensible-governance/cbr_defensible_governance/custom/* $python_packages
+        cp -Rv $tmp_folder/cbr-custom--defensible-governance/cbr__defensible_governance/custom/* $python_packages
 
 
         
