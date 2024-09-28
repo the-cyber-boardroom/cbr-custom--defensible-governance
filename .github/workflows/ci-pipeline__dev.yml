@@ -21,7 +21,8 @@ env:
   #  RELEASE_TYPE                    : 'minor'
   AWS_ACCESS_KEY_ID                               : ${{ secrets.AWS_ACCESS_KEY_ID__470426667096     }}
   AWS_SECRET_ACCESS_KEY                           : ${{ secrets.AWS_SECRET_ACCESS_KEY__470426667096 }}
-  AWS_REGION                                      : 'eu-west-1'
+  AWS_ACCOUNT_ID                                  : "654654216424"
+  AWS_DEFAULT_REGION                              : 'eu-west-1'
   RELEASE_TYPE                                    : 'minor'
   FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__S3_BUCKET     : '654654216424--cbr-deploy--eu-west-1'
   FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__LAMBDA_NAME   : 'dev__cbr__defensible_governance'
