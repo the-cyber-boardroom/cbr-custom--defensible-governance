@@ -1,6 +1,6 @@
 [tool.poetry]
 name        = "cbr__defensible_governance"
-version     = "v0.1.8"
+version     = "v0.1.10"
 description = "CBR - Custom - Defensible Governance"
 authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
 license     = "MIT"
