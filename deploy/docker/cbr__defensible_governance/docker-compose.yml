@@ -15,11 +15,13 @@ services:
     volumes:
       - ../../../cbr__defensible_governance/custom:/app/custom
       - ./cbr__defensible_governance__run_locally.sh:/app/cbr__defensible_governance__run_locally.sh
-      - ../../../cbr__defensible_governance/custom/cbr_content/en/web-pages/ccl:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-pages/ccl-local
-      - ../../../cbr__defensible_governance/custom/cbr_static/assets/ccl:/usr/local/lib/python3.12/site-packages/cbr_static/assets/ccl
+      - ../../../cbr__defensible_governance/custom/cbr_content/en/web-pages/:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-pages/
+      - ../../../cbr__defensible_governance/custom/cbr_content/en/web-site/:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-site/
+      - ../../../cbr__defensible_governance/custom/cbr_static/assets/defensible-governance:/usr/local/lib/python3.12/site-packages/cbr_static/assets/defensible-governance
 
-    pull_policy: always
-
+    #pull_policy: always
+    env_file:
+      - .env
     entrypoint: ["./cbr__defensible_governance__run_locally.sh"]
 
 

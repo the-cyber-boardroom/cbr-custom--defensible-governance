@@ -7,7 +7,7 @@ on:
       - dev
 
 env:
-  #  GIT__BRANCH                     : 'dev'
+
   #  PACKAGE_NAME                    : 'cbr__defensible_governance'
   #  AWS_ACCESS_KEY_ID               : ${{ secrets.AWS_ACCESS_KEY_ID__470426667096     }}
   #  AWS_SECRET_ACCESS_KEY           : ${{ secrets.AWS_SECRET_ACCESS_KEY__470426667096 }}
@@ -19,15 +19,17 @@ env:
   #  S3_DEV__BUCKET                  : "654654216424--cbr-deploy--eu-west-1"
   #  S3_DEV__PARENT_FOLDER           : "cbr-custom-websites"
   #  RELEASE_TYPE                    : 'minor'
-  AWS_ACCESS_KEY_ID                               : ${{ secrets.AWS_ACCESS_KEY_ID__470426667096     }}
-  AWS_SECRET_ACCESS_KEY                           : ${{ secrets.AWS_SECRET_ACCESS_KEY__470426667096 }}
-  AWS_ACCOUNT_ID                                  : "654654216424"
-  AWS_DEFAULT_REGION                              : 'eu-west-1'
-  RELEASE_TYPE                                    : 'minor'
-  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__S3_BUCKET     : '654654216424--cbr-deploy--eu-west-1'
-  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__LAMBDA_NAME   : 'dev__cbr__defensible_governance'
-  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__S3_KEY        : 'cbr-custom-websites/cbr_website_beta/dev__cbr__defensible_governance.zip'
-  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__GH_SOURCE_CODE: 'https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance/archive/refs/heads/dev.zip'
+  GIT__BRANCH                                      : 'dev'
+  AWS_ACCESS_KEY_ID                                : ${{ secrets.AWS_ACCESS_KEY_ID__470426667096     }}
+  AWS_SECRET_ACCESS_KEY                            : ${{ secrets.AWS_SECRET_ACCESS_KEY__470426667096 }}
+  AWS_ACCOUNT_ID                                   : "654654216424"
+  AWS_DEFAULT_REGION                               : 'eu-west-1'
+  RELEASE_TYPE                                     : 'minor'
+  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__S3_BUCKET      : '654654216424--cbr-deploy--eu-west-1'
+  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__LAMBDA_NAME    : 'dev__cbr__defensible_governance'
+  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__S3_KEY         : 'cbr-custom-websites/cbr_website_beta/dev__cbr__defensible_governance.zip'
+  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__GH_SOURCE_CODE : 'https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance/archive/refs/heads/dev.zip'
+  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__GH_BASE_PATH   : 'cbr-custom--defensible-governance-dev/cbr__defensible_governance/custom/'
 jobs:
 
 

@@ -1,16 +1,17 @@
 [tool.poetry]
-name        = "cbr_custom"
+name        = "cbr__defensible_governance"
 version     = "v0.1.8"
-description = "CBR - Custom"
+description = "CBR - Custom - Defensible Governance"
 authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
 license     = "MIT"
 readme      = "README.md"
-homepage    = "https://github.com/the-cyber-boardroom/cbr-custom"
-repository  = "https://github.com/the-cyber-boardroom/cbr-custom"
+homepage    = "https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance"
+repository  = "https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance"
 
 [tool.poetry.dependencies]
-python           = "^3.7"
+python           = "^3.11"
 cbr_website_beta = "*"
+pytest = "^8.3.3"
 
 
 [build-system]
