@@ -9,8 +9,8 @@ homepage    = "https://github.com/the-cyber-boardroom/cbr-custom"
 repository  = "https://github.com/the-cyber-boardroom/cbr-custom"
 
 [tool.poetry.dependencies]
-python          = "^3.7"
-osbot-utils     = "*"
+python           = "^3.7"
+cbr_website_beta = "*"
 
 
 [build-system]
