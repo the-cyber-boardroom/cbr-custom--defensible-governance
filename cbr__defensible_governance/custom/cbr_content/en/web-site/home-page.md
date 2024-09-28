@@ -1,6 +1,6 @@
 ## Defensible Governance
 
-<img src="/assets/defensible-governance/defensible-governance-logo.jpg" width="100"/>
+<img src="/assets/defensible-governance/defensible-governance-logo.jpg" width="200"/>
 
 Welcome to this site 
 
