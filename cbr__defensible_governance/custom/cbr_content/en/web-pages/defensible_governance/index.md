@@ -2,7 +2,7 @@
 
 Info about DG will go here
 
-Changed on GitHub
+Changed on GitHub ........
 
 TODO: Add intro text to this site and more content pages
 
