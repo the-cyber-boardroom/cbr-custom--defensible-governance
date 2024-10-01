@@ -11,4 +11,4 @@ Defensible Governance pages:
 - docs/defensible_governance/index
 
 ---
-[Edit this page](https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance/edit/dev/cbr__defensible_governance/custom/cbr_content/en/web-site/home-page.md)
+[Edit this page](https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance/edit/dev/cbr__defensible_governance/custom/cbr_content/en/web-site/home-page/welcome.md)
