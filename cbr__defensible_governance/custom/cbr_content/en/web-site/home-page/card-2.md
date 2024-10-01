@@ -12,9 +12,10 @@ Add here
 - Resource A
 - Resource B
 - Resource C
-- Resource D
+
+... 2nd batch of resources will go here...
 
 ----
 [Edit this page](https://github.com/the-cyber-boardroom/cbr-custom--defensible-governance/edit/dev/cbr__defensible_governance/custom/cbr_content/en/web-site/home-page/card-2.md)
 
-... 2nds batch of resources will go here...
+
