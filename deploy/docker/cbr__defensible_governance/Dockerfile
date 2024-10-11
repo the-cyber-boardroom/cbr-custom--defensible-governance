@@ -1,1 +1,1 @@
-FROM diniscruz/cbr_website_beta:v0.193.0
+FROM diniscruz/cbr_website_beta:v0.200.0
