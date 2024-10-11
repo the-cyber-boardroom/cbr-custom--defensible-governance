@@ -19,5 +19,5 @@ docker compose up
 **Open in Browser**
 
 ```
--  http://localhost:5116/
+http://localhost:5116/
 ```
